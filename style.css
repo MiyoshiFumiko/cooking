@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+header {
+    background-color:  #F2C744;
+    font-size: 36px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+aside {
+    background-color: #F2C744;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+main {
+    background-color:#AEB1BF;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+h3{
+    border-left :solid 5px #F2C744;
+    border-bottom: solid 1px gray;
+    padding: 10px;
+}
+
+p{
+    padding: 5px;
+}
+
+h1, h2, h3, p{
+    color: white;
+}
+
+.btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #BF2A8B;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+  }
+  .btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
